@@ -1,6 +1,7 @@
 # Vite
 dist
 dist-ssr
+build
 *.local
 
 # Dependencies
