@@ -158,7 +158,7 @@ export interface Attendance {
   // 勤務分析結果
   earlyOvertime?: boolean; // 早出残業の有無
   overtime?: boolean; // 残業の有無
-  earlyLeave?: boolean; // 早上がり（早上手当）の有無
+  earlyLeave?: boolean; // 早上（早上手当）の有無
   lateNightOvertimeHours?: number; // 深夜残業時間
 }
 
@@ -454,7 +454,7 @@ export interface SystemSettings {
   lateNightStartHour: number; // 深夜時間帯開始（時）
   lateNightEndHour: number; // 深夜時間帯終了（時）
   earlyOvertimeStandardHour: number; // 早出残業基準時間（時）
-  earlyLeaveStandardHour: number; // 早上がり基準時刻（時）
+  earlyLeaveStandardHour: number; // 早上基準時刻（時）
 
   // 給与設定
   defaultHourlyRate: number; // デフォルト時給（円）

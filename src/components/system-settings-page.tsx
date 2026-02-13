@@ -313,7 +313,7 @@ export function SystemSettingsPage() {
               </div>
 
               <div>
-                <Label htmlFor="earlyLeaveStandardHour">早上がり基準時刻（時）</Label>
+                <Label htmlFor="earlyLeaveStandardHour">早上基準時刻（時）</Label>
                 <Input
                   id="earlyLeaveStandardHour"
                   type="number"
@@ -324,7 +324,7 @@ export function SystemSettingsPage() {
                   className="mt-1"
                 />
                 <p className="text-xs text-muted-foreground mt-1">
-                  この時刻より前の退勤を早上がりとして扱います（例: 17時）
+                  この時刻より前の退勤を早上として扱います（例: 17時）
                 </p>
               </div>
             </div>
