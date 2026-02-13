@@ -1,0 +1,3 @@
+[functions]
+# Edge Functionsを無効化
+enabled = false
