@@ -327,6 +327,22 @@ export function SystemSettingsPage() {
                   この時刻より前の退勤を早上として扱います（例: 17時）
                 </p>
               </div>
+
+              <div>
+                <Label htmlFor="overtimeStandardHour">残業基準時刻（時）</Label>
+                <Input
+                  id="overtimeStandardHour"
+                  type="number"
+                  min="0"
+                  max="23"
+                  value={settings.overtimeStandardHour}
+                  onChange={(e) => updateSetting('overtimeStandardHour', Number(e.target.value))}
+                  className="mt-1"
+                />
+                <p className="text-xs text-muted-foreground mt-1">
+                  この時刻より後の退勤を残業として扱います（例: 17時）
+                </p>
+              </div>
             </div>
           </div>
         </CardContent>

@@ -455,6 +455,7 @@ export interface SystemSettings {
   lateNightEndHour: number; // 深夜時間帯終了（時）
   earlyOvertimeStandardHour: number; // 早出残業基準時間（時）
   earlyLeaveStandardHour: number; // 早上基準時刻（時）
+  overtimeStandardHour: number; // 残業基準時刻（時）
 
   // 給与設定
   defaultHourlyRate: number; // デフォルト時給（円）
@@ -475,6 +476,7 @@ export const DEFAULT_SYSTEM_SETTINGS: SystemSettings = {
   lateNightEndHour: 5,
   earlyOvertimeStandardHour: 9,
   earlyLeaveStandardHour: 17,
+  overtimeStandardHour: 17,
   defaultHourlyRate: 1200,
 };
 
